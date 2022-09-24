@@ -108,3 +108,5 @@ def main() -> None:
     if __IMAGE_DOWNLOAD__ == True and unrepeated: video.imgDownload(url)
     if not unrepeated: print(f"{RED}[{WHITE}·{RED}] Error, url is listed!{RESET}")
     print(f"{CYAN}[{WHITE}·{CYAN}]{CYAN} Program fished running{RESET}")
+    
+# main() # remove comments if you don't want to use api
